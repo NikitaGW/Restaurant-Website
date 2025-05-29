@@ -1,0 +1,688 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiva="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Design</title>
+
+    <!-- <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" /> -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custome css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header start -->
+    <header>
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>resto.</a>
+
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+            <a href="#" class="fas fa-heart"></a>
+            <a href="#" class="fas fa-shopping-cart"></a>
+        </div>
+    </header>
+    <!-- header section ends -->
+    <!-- search form -->
+
+    <form action="" id="search-form">
+        <input type="search" placeholder="Search here..." name="" id="search-box">
+        <label for="search-box" class="fas fa-search"></label>
+        <i class="fas fa-times" id="close"></i>
+    </form>
+
+    <!-- home section start -->
+    <section class="home" id="home ">
+        <div class="swiper-container home-slider">
+            <div class="swiper-wrapper wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Chef's Signature Creations</span>
+                        <h3>Spicy Noodles</h3>
+                        <p>Spicy Noodles, a vibrant dish that ignites the senses. Made with perfectly cooked wheat
+                            noodles, this dish is tossed in a fiery blend of chili paste, garlic, and soya sauce,
+                            delivering a delightful kick in every bite.</p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/img1.jpg" alt="noodle">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Chef's Signature Creations</span>
+                        <h3>Spring Rolls
+                        </h3>
+                        <p>Delight in our crispy Spring Rolls, filled with a medley of fresh vegetables and aromatic
+                            herbs, served with a zesty dipping sauce for the perfect crunch in every bite.
+                        </p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/img2.jpg" alt="roll">
+                    </div>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="content">
+                        <span>Chef's Signature Creations</span>
+                        <h3>Sizzling Pizza
+                        </h3>
+                        <p>Indulge in our handcrafted pizza, featuring a perfectly crispy crust topped with rich tomato
+                            sauce, melted mozzarella, and your choice of fresh toppings, delivering a burst of flavor in
+                            every slice.
+                        </p>
+                        <a href="#" class="btn">Order Now</a>
+                    </div>
+                    <div class="image">
+                        <img src="images/img3.jpg" alt="pizza">
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <!-- home section end -->
+
+    <!-- dishes section start -->
+    <section class="dishes" id="dishesh">
+        <h3 class="sub-heading">Chef's Specialties</h3>
+        <h1 class="heading">
+            Flavorful Favorites
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/d1.png" alt="">
+                <h3>Classic Nachos → Fiesta Nachos Supreme</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$17.99</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/d3.png" alt="">
+
+                <h3>Pasta Alfredo → Creamy Dream Alfredo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$15.99</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/d5.png" alt="">
+                <h3>Chocolate Cake → Divine Choco Temptation
+                </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$25.99</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/d7.png" alt="">
+                <h3>Ice Cream Sundae → Frozen Delight Sundae</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$19.99</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/d8.png" alt="">
+
+                <h3>Mojito → Minty Mojito Splash</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$10.99</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+
+            <div class="box">
+                <a href="#" class="fas fa-heart"></a>
+                <a href="#" class="fas fa-eye"></a>
+                <img src="images/d9.png" alt="">
+                <h3>Cold Brew → Frosty Brew Magic
+                </h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <span>$14.99</span>
+                <a href="#" class="btn">Add to Cart</a>
+            </div>
+
+        </div>
+    </section>
+    <!--dishes section end  -->
+
+    <!-- about section -->
+
+    <section class="about" id="about">
+        <h3 class="sub-heading">About Us</h3>
+        <h1 class="heading">Why Choose Us?</h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/n2.png" alt="">
+            </div>
+
+            <div class="content">
+                <h3>Top culinary delights nationwide.</h3>
+                <p>Customers come to Resto for our exceptional commitment to high-quality, diverse culinary experiences.
+                </p>
+                <p>We craft innovative dishes from fresh, locally-sourced ingredients that combine traditional and
+                    contemporary flavors. With a warm ambiance and outstanding customer service, we ensure satisfaction
+                    at every level. Whether dining in or ordering out, we deliver an unmatched combination of flavor,
+                    quality, and memorable experiences.</p>
+
+                <div class="icons-container">
+                    <div class="icons">
+                        <i class="fas fa-shipping-fast"></i>
+                        <span>Free Delivery</span>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fas fa-dollar-sign "></i>
+                        <span>Easy Payments</span>
+                    </div>
+
+                    <div class="icons">
+                        <i class="fas fa-headset "></i>
+                        <span>24/7 Service</span>
+                    </div>
+                </div>
+
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- menu section start -->
+    <section class="menu" id="menu">
+        <h3 class="sub-heading">Our Mneu</h3>
+        <h1 class="heading">Toady's Speciality</h1>
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu1.webp" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Paneer Butter Masala</h3>
+                    <p>A rich and creamy curry made with paneer cubes cooked in a spiced tomato and butter gravy, served
+                        with naan or rice.</p>
+                    <a href="#" class="btn">Add To Cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu2.webp" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Masala Dosa</h3>
+                    <p>A crispy, golden-brown South Indian crepe filled with spicy potato masala, served with coconut
+                        chutney and sambar.</p>
+                    <a href="#" class="btn">Add To Cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu3.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Vegetable Sushi</h3>
+                    <p>Delicious sushi rolls made with fresh vegetables, seaweed, and seasoned rice, served with soy
+                        sauce and wasabi.</p>
+                    <a href="#" class="btn">Add To Cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu4.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Miso Soup</h3>
+                    <p>A traditional Japanese soup made with miso paste, tofu, seaweed, and green onions, offering a
+                        warm and comforting taste.</p>
+                    <a href="#" class="btn">Add To Cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu5.webp" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Veggie Burger</h3>
+                    <p>A flavorful burger with a crispy vegetable patty, fresh lettuce, tomatoes, and cheese, served
+                        with fries and ketchup</p>
+                    <a href="#" class="btn">Add To Cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu6.jpeg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Mac & Cheese</h3>
+                    <p>A creamy and cheesy pasta dish made with macaroni and rich cheddar cheese sauce, baked to
+                        perfection.</p>
+                    <a href="#" class="btn">Add To Cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu7.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Borscht </h3>
+                    <p>A vibrant beetroot soup made with cabbage, potatoes, and carrots, served hot with a dollop of
+                        sour cream.</p>
+                    <a href="#" class="btn">Add To Cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu8.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Olivier Salad</h3>
+                    <p>A classic Russian salad made with boiled potatoes, carrots, peas, pickles, and mayonnaise,
+                        offering a creamy and crunchy texture.
+                    </p>
+                    <a href="#" class="btn">Add To Cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu9.webp" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>Ratatouille</h3>
+                    <p>A delicious French vegetable stew made with zucchini, eggplant, bell peppers, and tomatoes,
+                        cooked with herbs and olive oil.</p>
+                    <a href="#" class="btn">Add To Cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="image">
+                    <img src="images/menu10.jpg" alt="">
+                    <a href="#" class="fas fa-heart"></a>
+                </div>
+                <div class="content">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <h3>French Onion Soup</h3>
+                    <p>A rich and savory soup made with caramelized onions, topped with melted cheese and crispy bread
+                        for a comforting meal.</p>
+                    <a href="#" class="btn">Add To Cart</a>
+                    <span class="price">$12.99</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- menu section end -->
+
+
+    <!-- review section start-->
+    <section class="review" id="review">
+        <h3 class="sub-heading">Customer's Review</h3>
+        <h1 class="heading">What They Say</h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/r1.webp" alt="">
+                        <div class="user-info">
+                            <h3>Sophia Williams</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>A delightful dining experience from start to finish! Loved the dining experience! The food was 
+                        fresh and delicious, the ambiance was great, and the service was top-notch. I'll definitely be back! </p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/r2.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Liam Johnson</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>A wonderful place to eat with family and friends! The meals were flavorful, and the staff was
+                        very welcoming. The presentation of the dishes was also quite impressive. Highly recommended!
+                    </p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/r3.webp" alt="">
+                        <div class="user-info">
+                            <h3>Olivia Martinez</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>From the moment we entered, we felt the warm hospitality! The menu had a great selection, and
+                        everything we ordered tasted absolutely perfect. A great place for a memorable meal!</p>
+                </div>
+
+                <div class="swiper-slide slide">
+                    <i class="fas fa-quote-right"></i>
+                    <div class="user">
+                        <img src="images/r4.jpg" alt="">
+                        <div class="user-info">
+                            <h3>Noah Brown</h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p>One of the best dining experiences I’ve had! The food was cooked to perfection, and the flavors
+                        were rich and authentic. The atmosphere was relaxing, and the staff was very attentive!</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- review section end -->
+
+    <!-- order section start-->
+    <section class="order" id="order">
+        <h3 class="sub-heading">Order Now</h3>
+        <h1 class="heading">Free and Fast</h1>
+
+        <form action="">
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your Name</span>
+                    <input type="text" placeholder="Enter your name">
+                </div>
+
+                <div class="input">
+                    <span>Your Number</span>
+                    <input type="number" placeholder="Enter your number">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your Order</span>
+                    <input type="text" placeholder="Enter Food name">
+                </div>
+
+                <div class="input">
+                    <span>Additional Food</span>
+                    <input type="text" placeholder="Extra with food">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>How Much</span>
+                    <input type="number" placeholder="How many orders">
+                </div>
+
+                <div class="input">
+                    <span>Date and Time</span>
+                    <input type="datetime-local">
+                </div>
+            </div>
+
+            <div class="inputBox">
+                <div class="input">
+                    <span>Your Address</span>
+                    <textarea name="" id="" placeholder="Enter Your Address" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="input">
+                    <span>Your Message</span>
+                    <textarea name="" id="" placeholder="Enter Your Message" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+
+            <input type="submit" value="Order Now" class="btn">
+        </form>
+    </section>
+    <!-- order section end -->
+    <!-- footer section start -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Locations</h3>
+                <a href="#">India</a>
+                <a href="#">Japan</a>
+                <a href="#">USA</a>
+                <a href="#">Rassia</a>
+                <a href="#">France</a>
+            </div>
+
+            <div class="box">
+                <h3>Quick Links</h3>
+                <a href="#">Home</a>
+                <a href="#">Dishes</a>
+                <a href="#">About</a>
+                <a href="#">Menu</a>
+                <a href="#">Review</a>
+                <a href="#">Order</a>
+            </div>
+
+            <div class="box">
+                <h3>Contact Info</h3>
+                <a href="#">+123-456-7890</a>
+                <a href="#">+111-222-3333</a>
+                <a href="#">ngso@gmail.com</a>
+                <a href="#">ogns@gmail.com</a>
+                <a href="#">Mumbai, India - 400104</a>
+            </div>
+
+            <div class="box">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+                <a href="#">Linkedin</a>
+                <a href="#">Mumbai, India - 400104</a>
+            </div>
+        </div>
+
+        <div class="credit">copyright @ 2024 by <span>NGW</span></div>
+    </section>
+    <!-- footer section end -->
+
+    <!-- loader part -->
+    <!-- <div class="loader-container">
+        <img src="img/loder.gif" alt="">
+    </div> -->
+
+      
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+    <!-- custom js file link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
