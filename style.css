@@ -200,6 +200,43 @@ header .icons #menu-bars {
     font-size: 5rem;
 }
 
+.cart {
+  position: fixed;
+  top: 70px;
+  right: -350px;
+  width: 300px;
+  background: #fff;
+  border: 2px solid #ddd;
+  padding: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,.2);
+  transition: right 0.3s ease;
+  z-index: 1000;
+}
+.cart.active {
+  right: 20px;
+}
+.cart h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.cart ul {
+  list-style: none;
+  padding: 0;
+}
+.cart ul li {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+.cart button {
+  background: red;
+  color: white;
+  border: none;
+  padding: 2px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
 .home .home-slider .slide {
     display: flex;
     align-items: center;
